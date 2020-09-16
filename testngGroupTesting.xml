@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Grouping in testNG">
+<groups>
+  <run>
+  <include name="regression"></include>
+  </run>
+ </groups>
+  <test name="Grouping in testNG">
+    <classes>
+      <class name="group_tesing.GroupDemoTest1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

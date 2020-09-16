@@ -1,0 +1,7 @@
+<suite name ="man">
+<test name ="manual">
+<classes>
+<class name="AllAnnotations.AllAnnotation"/>
+</classes>
+</test>
+</suite>

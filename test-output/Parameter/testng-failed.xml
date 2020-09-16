@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parameter]">
+  <parameter name="uname" value="admin"/>
+  <parameter name="Pwd" value="admin"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="Parameter.parameter_Demo1">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Parameter.parameter_Demo1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Parameter] -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IRetryAnalyzer" parallel="none">
+  <test name="Sprint1">
+    <classes>
+      <class name="IRetryAnalyzer_Demo.Demo"/>
+      <class name="IRetryAnalyzer_Demo.Demo1"/>
+      <class name="IRetryAnalyzer_Demo.Demo2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

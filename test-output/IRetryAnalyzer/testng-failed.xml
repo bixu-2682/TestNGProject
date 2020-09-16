@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [IRetryAnalyzer]">
+  <test parallel="none" name="Sprint1(failed)">
+    <classes>
+      <class name="IRetryAnalyzer_Demo.Demo2">
+        <methods>
+          <include name="testHRMS2"/>
+        </methods>
+      </class> <!-- IRetryAnalyzer_Demo.Demo2 -->
+    </classes>
+  </test> <!-- Sprint1(failed) -->
+</suite> <!-- Failed suite [IRetryAnalyzer] -->
